@@ -57,6 +57,8 @@ CONTENTS
 	Net::Server
 
 	HTML::Template
+	
+	MIME::Lite
 
 INSTALLATION
 

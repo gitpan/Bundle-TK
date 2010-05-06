@@ -1,5 +1,8 @@
 Revision history for Bundle-TK
 
+1.01   2010-05-06/13:18
+	Add MIME::Lite
+
 1.0    2010-05-06/11:38
-        First version, released on an unsuspecting world.
+	First version, released on an unsuspecting world.
 

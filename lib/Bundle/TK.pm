@@ -1,7 +1,7 @@
 package Bundle::TK;
 use strict;
 
-our $VERSION = '1.0';
+our $VERSION = '1.01';
 
 1;
 
@@ -74,6 +74,8 @@ Bundle::TK - Bundle to install all TochkaK's dependencies.
 	Net::Server
 
 	HTML::Template
+	
+	MIME::Lite
 
 =head1 INSTALLATION
 
