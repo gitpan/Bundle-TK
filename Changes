@@ -1,5 +1,8 @@
 Revision history for Bundle-TK
 
+1.02   2010-05-06/13:22
+	Fix reqs
+
 1.01   2010-05-06/13:18
 	Add MIME::Lite
 

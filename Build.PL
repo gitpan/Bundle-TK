@@ -4,7 +4,7 @@ use Module::Build;
 my $builder = Module::Build->new(
 	module_name         => 'Bundle::TK',
 	license             => 'perl',
-	dist_author         => q{Anatoly Sharifulin <sharifulin@gmail.com>},
+	dist_author         => 'Anatoly Sharifulin <sharifulin@gmail.com>',
 	dist_version_from   => 'lib/Bundle/TK.pm',
 	build_requires => {
 		'Test::More' => 0,
@@ -48,6 +48,8 @@ my $builder = Module::Build->new(
 		'Net::SNMP' => 0,
 		'Net::Server' => 0,
 		'HTML::Template' => 0,
+		
+		'MIME::Lite' => 0,
 	},
 	meta_merge => {
 		resources => {

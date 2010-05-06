@@ -20,7 +20,7 @@ name: Bundle-TK
 provides:
   Bundle::TK:
     file: lib/Bundle/TK.pm
-    version: 1.01
+    version: 1.02
 requires:
   AnyEvent: 0
   AnyEvent::HTTP: 0
@@ -33,6 +33,7 @@ requires:
   Image::Magick: 0
   JSON: 0
   List::MoreUtils: 0
+  MIME::Lite: 0
   Math::Base36: 0
   Net::LastFM: 0
   Net::SNMP: 0
@@ -52,4 +53,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/sharifulin/Bundle-TK.git
-version: 1.01
+version: 1.02

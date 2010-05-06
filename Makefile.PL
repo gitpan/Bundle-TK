@@ -17,6 +17,7 @@ WriteMakefile
                            'Convert::Bencode' => 0,
                            'POE::Component::Client::DNS' => 0,
                            'Math::Base36' => 0,
+                           'MIME::Lite' => 0,
                            'Net::Twitter' => 0,
                            'List::MoreUtils' => 0,
                            'POE::Component::Client::HTTP' => 0,
