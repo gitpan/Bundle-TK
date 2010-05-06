@@ -1,4 +1,11 @@
+Build.PL
+Changes
 MANIFEST
-Makefile.PL
-Tk.pm
 README
+lib/Bundle/TK.pm
+t/00-load.t
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
+Makefile.PL
+META.yml

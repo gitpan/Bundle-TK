@@ -1,1 +1,103 @@
-Bundle::Tk - CPAN Bundle for Tk and its dependencies
+Bundle::TK
+
+Bundle::TK - Bundle to install all TochkaK related Modules
+
+CONTENTS
+
+	Bundle::CPAN
+
+	common::sense
+
+	AnyEvent
+
+	AnyEvent::HTTP
+
+	Template
+
+	XML::LibXML
+
+	HTTP::Date
+
+	Date::Calc
+
+	List::MoreUtils
+
+	Convert::Bencode
+
+	POE
+
+	POE::Component::Client::DNS
+
+	POE::Component::Client::Keepalive
+
+	POE::Component::Client::HTTP
+
+	POE::Component::SSLify
+
+	POE::Component::Client::Icecast
+
+	Net::LastFM
+
+	Net::Twitter
+
+	JSON
+
+	Data::GUID
+
+	TinyURL::RU
+
+	Math::Base36
+
+	Image::Magick
+
+	Sphinx::Search
+
+	Net::SNMP
+
+	Net::Server
+
+	HTML::Template
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+	
+	./Build installdeps
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc Bundle::TK
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Bundle-TK
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/Bundle-TK
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Bundle-TK
+
+    Search CPAN
+        http://search.cpan.org/dist/Bundle-TK/
+
+
+LICENSE AND COPYRIGHT
+
+Copyright (C) 2010 Anatoly Sharifulin
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
+
