@@ -1,7 +1,7 @@
 package Bundle::TK;
 use strict;
 
-our $VERSION = '1.02';
+our $VERSION = '1.03';
 
 1;
 
@@ -42,6 +42,8 @@ Bundle::TK - Bundle to install all TochkaK's dependencies.
 	Convert::Bencode
 
 	POE
+	
+	POE::XS::Queue::Array
 
 	POE::Component::Client::DNS
 
@@ -76,7 +78,11 @@ Bundle::TK - Bundle to install all TochkaK's dependencies.
 	HTML::Template
 	
 	MIME::Lite
-
+	
+	Template::Plugin::String::Compare
+	
+	Spreadsheet::WriteExcel
+	
 =head1 INSTALLATION
 
 To install this module, run the following commands:

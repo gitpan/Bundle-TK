@@ -25,6 +25,7 @@ my $builder = Module::Build->new(
 		'Convert::Bencode' => 0,
 		
 		'POE' => 0,
+		'POE::XS::Queue::Array' => 0,
 		'POE::Component::Client::DNS' => 0,
 		'POE::Component::Client::Keepalive' => 0,
 		'POE::Component::Client::HTTP' => 0,
@@ -50,6 +51,11 @@ my $builder = Module::Build->new(
 		'HTML::Template' => 0,
 		
 		'MIME::Lite' => 0,
+		
+		'Template::Plugin::String::Compare' => 0,
+		
+		'Spreadsheet::WriteExcel' => 0,
+		
 	},
 	meta_merge => {
 		resources => {
