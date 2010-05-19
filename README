@@ -13,7 +13,11 @@ CONTENTS
 	AnyEvent::HTTP
 
 	Template
-
+	
+	Template::Plugin::String::Compare
+	
+	Template::Plugin::JSON
+	
 	XML::LibXML
 
 	HTTP::Date
@@ -61,10 +65,12 @@ CONTENTS
 	HTML::Template
 	
 	MIME::Lite
-
-	Template::Plugin::String::Compare
 	
+	MIME::EncWords
+
 	Spreadsheet::WriteExcel
+	
+	IO::Socket::SSL
 
 INSTALLATION
 

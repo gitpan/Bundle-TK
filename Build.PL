@@ -17,7 +17,11 @@ my $builder = Module::Build->new(
 		'AnyEvent::HTTP' => 0,
 		
 		# old engine
+		
 		'Template' => 0,
+		'Template::Plugin::String::Compare' => 0,
+		'Template::Plugin::JSON' => 0,
+		
 		'XML::LibXML' => 0,
 		'HTTP::Date' => 0,
 		'Date::Calc' => 0,
@@ -52,10 +56,9 @@ my $builder = Module::Build->new(
 		
 		'MIME::Lite' => 0,
 		
-		'Template::Plugin::String::Compare' => 0,
-		
 		'Spreadsheet::WriteExcel' => 0,
 		
+		'IO::Socket::SSL' => 0,
 	},
 	meta_merge => {
 		resources => {

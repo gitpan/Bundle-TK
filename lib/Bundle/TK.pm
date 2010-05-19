@@ -1,7 +1,7 @@
 package Bundle::TK;
 use strict;
 
-our $VERSION = '1.03';
+our $VERSION = '1.05';
 
 1;
 
@@ -30,6 +30,10 @@ Bundle::TK - Bundle to install all TochkaK's dependencies.
 	AnyEvent::HTTP
 
 	Template
+	
+	Template::Plugin::String::Compare
+	
+	Template::Plugin::JSON
 
 	XML::LibXML
 
@@ -79,9 +83,11 @@ Bundle::TK - Bundle to install all TochkaK's dependencies.
 	
 	MIME::Lite
 	
-	Template::Plugin::String::Compare
+	MIME::EncWords
 	
 	Spreadsheet::WriteExcel
+	
+	IO::Socket::SSL
 	
 =head1 INSTALLATION
 
